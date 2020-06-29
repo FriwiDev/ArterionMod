@@ -1,4 +1,4 @@
-###Arterion Clientmod/LabyMod Addon
+### Arterion Clientmod/LabyMod Addon
 
 This repository contains the Arterion Clientmod and LabyMod Addon. The produced JAR is a Forge Mod and a LabyMod Addon in one File.
 The precompiled addon and mod can be found in build/libs/.
