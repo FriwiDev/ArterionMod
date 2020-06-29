@@ -28,6 +28,8 @@ public class LabyAddon extends LabyModAddon {
 	@Override
 	public void onEnable() {
 		ArterionClientMod.IS_LABY = true;
+		ModValueEnum.IS_ARTERION.setValue(0);
+		FriendlyPlayerList.clear();
 		getApi().registerForgeListener(new LabymodIngameGuiHandler());
 		getApi().registerForgeListener(new ChestMenuModifier());
 		getApi().registerForgeListener(new ChatModifier());
@@ -42,6 +44,9 @@ public class LabyAddon extends LabyModAddon {
 			ModValueEnum.IS_ARTERION.setValue(0);
 		});
 		getApi().getEventManager().register(new LabymodPluginMessageListener());
+		if(getApi().getCurrentServer()!=null) {
+			ModConnection.sendPacket(new Packet01ModVersion(ModConnection.PROTOCOL_VERSION));
+		}
 	}
 
 	/**
@@ -49,7 +54,7 @@ public class LabyAddon extends LabyModAddon {
 	 */
 	@Override
 	public void onDisable() {
-
+		
 	}
 
 	/**

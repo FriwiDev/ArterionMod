@@ -180,63 +180,63 @@ Class Start: me.friwi.arterion.client.LabyAddon
       @|me\friwi\arterion\client\LabyAddon.java|1144|1152|onEnable|method|net.labymod.api.LabyModAddon|onEnable|()V
    Method End: onEnable()V
    Method Start: onDisable()V
-      @|me\friwi\arterion\client\LabyAddon.java|1928|1937|onDisable|method|net.labymod.api.LabyModAddon|onDisable|()V
+      @|me\friwi\arterion\client\LabyAddon.java|2129|2138|onDisable|method|net.labymod.api.LabyModAddon|onDisable|()V
    Method End: onDisable()V
    Method Start: loadConfig()V
-      @|me\friwi\arterion\client\LabyAddon.java|2048|2058|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
-      @|me\friwi\arterion\client\LabyAddon.java|2065|2082|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
-      @|me\friwi\arterion\client\LabyAddon.java|2083|2107|setGuiScaleWithoutSaving|method|me.friwi.arterion.client.ArterionModConfig|setGuiScaleWithoutSaving|(I)V
-      @|me\friwi\arterion\client\LabyAddon.java|2108|2117|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
-      @|me\friwi\arterion\client\LabyAddon.java|2120|2123|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
-      @|me\friwi\arterion\client\LabyAddon.java|2140|2149|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
-      @|me\friwi\arterion\client\LabyAddon.java|2152|2155|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
-      @|me\friwi\arterion\client\LabyAddon.java|2170|2178|getAsInt|method|com.google.gson.JsonElement|getAsInt|()I
-      @|me\friwi\arterion\client\LabyAddon.java|2183|2199|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2200|2206|NORMAL|field|me.friwi.arterion.client.labymod.EnumLabyGuiScale|NORMAL
-      @|me\friwi\arterion\client\LabyAddon.java|2207|2214|ordinal|method|java.lang.Enum|ordinal|()I
+      @|me\friwi\arterion\client\LabyAddon.java|2251|2261|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
+      @|me\friwi\arterion\client\LabyAddon.java|2268|2285|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
+      @|me\friwi\arterion\client\LabyAddon.java|2286|2310|setGuiScaleWithoutSaving|method|me.friwi.arterion.client.ArterionModConfig|setGuiScaleWithoutSaving|(I)V
+      @|me\friwi\arterion\client\LabyAddon.java|2311|2320|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|me\friwi\arterion\client\LabyAddon.java|2323|2326|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|me\friwi\arterion\client\LabyAddon.java|2343|2352|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|me\friwi\arterion\client\LabyAddon.java|2355|2358|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|me\friwi\arterion\client\LabyAddon.java|2373|2381|getAsInt|method|com.google.gson.JsonElement|getAsInt|()I
+      @|me\friwi\arterion\client\LabyAddon.java|2386|2402|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2403|2409|NORMAL|field|me.friwi.arterion.client.labymod.EnumLabyGuiScale|NORMAL
+      @|me\friwi\arterion\client\LabyAddon.java|2410|2417|ordinal|method|java.lang.Enum|ordinal|()I
    Method End: loadConfig()V
    Method Start: fillSettings(Ljava/util/List;)V
-      @|me\friwi\arterion\client\LabyAddon.java|2397|2409|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
-      @|me\friwi\arterion\client\LabyAddon.java|2415|2430|SettingsElement|class|net.labymod.settings.elements.SettingsElement
-      @|me\friwi\arterion\client\LabyAddon.java|2410|2414|List|class|java.util.List
-      @|me\friwi\arterion\client\LabyAddon.java|2432|2443|subSettings|param|me.friwi.arterion.client.LabyAddon|fillSettings|(Ljava/util/List;)V|subSettings|0
-      @|me\friwi\arterion\client\LabyAddon.java|2469|2481|DropDownMenu|class|net.labymod.gui.elements.DropDownMenu
-      @|me\friwi\arterion\client\LabyAddon.java|2482|2498|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2528|2540|DropDownMenu|class|net.labymod.gui.elements.DropDownMenu
-      @|me\friwi\arterion\client\LabyAddon.java|2541|2557|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2608|2612|fill|method|net.labymod.gui.elements.DropDownMenu|fill|([Ljava/lang/Object;)Lnet/labymod/gui/elements/DropDownMenu;
-      @|me\friwi\arterion\client\LabyAddon.java|2613|2629|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2630|2636|values|method|me.friwi.arterion.client.labymod.EnumLabyGuiScale|values|()[Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;
-      @|me\friwi\arterion\client\LabyAddon.java|2643|2658|DropDownElement|class|net.labymod.settings.elements.DropDownElement
-      @|me\friwi\arterion\client\LabyAddon.java|2659|2675|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2701|2716|DropDownElement|class|net.labymod.settings.elements.DropDownElement
-      @|me\friwi\arterion\client\LabyAddon.java|2717|2733|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2826|2837|setSelected|method|net.labymod.gui.elements.DropDownMenu|setSelected|(Ljava/lang/Object;)V
-      @|me\friwi\arterion\client\LabyAddon.java|2838|2854|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-      @|me\friwi\arterion\client\LabyAddon.java|2855|2861|values|method|me.friwi.arterion.client.labymod.EnumLabyGuiScale|values|()[Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;
-      @|me\friwi\arterion\client\LabyAddon.java|2864|2881|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
-      @|me\friwi\arterion\client\LabyAddon.java|2882|2893|getGuiScale|method|me.friwi.arterion.client.ArterionModConfig|getGuiScale|()I
-      @|me\friwi\arterion\client\LabyAddon.java|2943|2960|setChangeListener|method|net.labymod.settings.elements.DropDownElement|setChangeListener|(Lnet/labymod/utils/Consumer;)V
-      @|me\friwi\arterion\client\LabyAddon.java|2965|2973|Consumer|class|net.labymod.utils.Consumer
-      @|me\friwi\arterion\client\LabyAddon.java|2974|2990|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2600|2612|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
+      @|me\friwi\arterion\client\LabyAddon.java|2618|2633|SettingsElement|class|net.labymod.settings.elements.SettingsElement
+      @|me\friwi\arterion\client\LabyAddon.java|2613|2617|List|class|java.util.List
+      @|me\friwi\arterion\client\LabyAddon.java|2635|2646|subSettings|param|me.friwi.arterion.client.LabyAddon|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|me\friwi\arterion\client\LabyAddon.java|2672|2684|DropDownMenu|class|net.labymod.gui.elements.DropDownMenu
+      @|me\friwi\arterion\client\LabyAddon.java|2685|2701|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2731|2743|DropDownMenu|class|net.labymod.gui.elements.DropDownMenu
+      @|me\friwi\arterion\client\LabyAddon.java|2744|2760|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2811|2815|fill|method|net.labymod.gui.elements.DropDownMenu|fill|([Ljava/lang/Object;)Lnet/labymod/gui/elements/DropDownMenu;
+      @|me\friwi\arterion\client\LabyAddon.java|2816|2832|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2833|2839|values|method|me.friwi.arterion.client.labymod.EnumLabyGuiScale|values|()[Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;
+      @|me\friwi\arterion\client\LabyAddon.java|2846|2861|DropDownElement|class|net.labymod.settings.elements.DropDownElement
+      @|me\friwi\arterion\client\LabyAddon.java|2862|2878|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|2904|2919|DropDownElement|class|net.labymod.settings.elements.DropDownElement
+      @|me\friwi\arterion\client\LabyAddon.java|2920|2936|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|3029|3040|setSelected|method|net.labymod.gui.elements.DropDownMenu|setSelected|(Ljava/lang/Object;)V
+      @|me\friwi\arterion\client\LabyAddon.java|3041|3057|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+      @|me\friwi\arterion\client\LabyAddon.java|3058|3064|values|method|me.friwi.arterion.client.labymod.EnumLabyGuiScale|values|()[Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;
+      @|me\friwi\arterion\client\LabyAddon.java|3067|3084|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
+      @|me\friwi\arterion\client\LabyAddon.java|3085|3096|getGuiScale|method|me.friwi.arterion.client.ArterionModConfig|getGuiScale|()I
+      @|me\friwi\arterion\client\LabyAddon.java|3146|3163|setChangeListener|method|net.labymod.settings.elements.DropDownElement|setChangeListener|(Lnet/labymod/utils/Consumer;)V
+      @|me\friwi\arterion\client\LabyAddon.java|3168|3176|Consumer|class|net.labymod.utils.Consumer
+      @|me\friwi\arterion\client\LabyAddon.java|3177|3193|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
       Anon Class Start: me.friwi.arterion.client.LabyAddon$1
          Method Start: accept(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V
-            @|me\friwi\arterion\client\LabyAddon.java|3024|3030|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
-            @|me\friwi\arterion\client\LabyAddon.java|3031|3047|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
-            @|me\friwi\arterion\client\LabyAddon.java|3048|3053|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
-            @|me\friwi\arterion\client\LabyAddon.java|3061|3078|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
-            @|me\friwi\arterion\client\LabyAddon.java|3079|3103|setGuiScaleWithoutSaving|method|me.friwi.arterion.client.ArterionModConfig|setGuiScaleWithoutSaving|(I)V
-            @|me\friwi\arterion\client\LabyAddon.java|3104|3109|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
-            @|me\friwi\arterion\client\LabyAddon.java|3110|3117|ordinal|method|java.lang.Enum|ordinal|()I
-            @|me\friwi\arterion\client\LabyAddon.java|3126|3132|System|class|java.lang.System
-            @|me\friwi\arterion\client\LabyAddon.java|3133|3136|out|field|java.lang.System|out
-            @|me\friwi\arterion\client\LabyAddon.java|3137|3144|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-            @|me\friwi\arterion\client\LabyAddon.java|3170|3175|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
-            @|me\friwi\arterion\client\LabyAddon.java|3176|3180|name|method|java.lang.Enum|name|()Ljava/lang/String;
+            @|me\friwi\arterion\client\LabyAddon.java|3227|3233|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
+            @|me\friwi\arterion\client\LabyAddon.java|3234|3250|EnumLabyGuiScale|class|me.friwi.arterion.client.labymod.EnumLabyGuiScale
+            @|me\friwi\arterion\client\LabyAddon.java|3251|3256|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
+            @|me\friwi\arterion\client\LabyAddon.java|3264|3281|ArterionModConfig|class|me.friwi.arterion.client.ArterionModConfig
+            @|me\friwi\arterion\client\LabyAddon.java|3282|3306|setGuiScaleWithoutSaving|method|me.friwi.arterion.client.ArterionModConfig|setGuiScaleWithoutSaving|(I)V
+            @|me\friwi\arterion\client\LabyAddon.java|3307|3312|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
+            @|me\friwi\arterion\client\LabyAddon.java|3313|3320|ordinal|method|java.lang.Enum|ordinal|()I
+            @|me\friwi\arterion\client\LabyAddon.java|3329|3335|System|class|java.lang.System
+            @|me\friwi\arterion\client\LabyAddon.java|3336|3339|out|field|java.lang.System|out
+            @|me\friwi\arterion\client\LabyAddon.java|3340|3347|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+            @|me\friwi\arterion\client\LabyAddon.java|3373|3378|scale|param|me.friwi.arterion.client.LabyAddon$1|accept|(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V|scale|0
+            @|me\friwi\arterion\client\LabyAddon.java|3379|3383|name|method|java.lang.Enum|name|()Ljava/lang/String;
          Method End: accept(Lme/friwi/arterion/client/labymod/EnumLabyGuiScale;)V
       Anon Class End: me.friwi.arterion.client.LabyAddon$1
-      @|me\friwi\arterion\client\LabyAddon.java|3219|3230|subSettings|param|me.friwi.arterion.client.LabyAddon|fillSettings|(Ljava/util/List;)V|subSettings|0
-      @|me\friwi\arterion\client\LabyAddon.java|3231|3234|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\friwi\arterion\client\LabyAddon.java|3422|3433|subSettings|param|me.friwi.arterion.client.LabyAddon|fillSettings|(Ljava/util/List;)V|subSettings|0
+      @|me\friwi\arterion\client\LabyAddon.java|3434|3437|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
    Method End: fillSettings(Ljava/util/List;)V
 Class End  : me.friwi.arterion.client.LabyAddon
 endProcessing me\friwi\arterion\client\LabyAddon.java
