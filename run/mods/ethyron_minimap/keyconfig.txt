@@ -1,0 +1,6 @@
+Menu Key: M
+Toggle Enable: None
+Toggle Render Type: None
+Toggle Waypoints Visible: None
+Set Waypoint: C
+Waypoint List: None

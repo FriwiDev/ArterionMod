@@ -1,0 +1,106 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 05.06.20 12:27
+Description: Ticking screen
+
+java.lang.NullPointerException: Ticking screen
+	at me.friwi.arterion.client.gui.TextGui.updateScreen(TextGui.java:44)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1781)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1080)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:380)
+	at net.minecraft.client.main.Main.main(Main.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at me.friwi.arterion.client.gui.TextGui.updateScreen(TextGui.java:44)
+
+-- Affected screen --
+Details:
+	Screen name: me.friwi.arterion.client.gui.TextGui
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player341'/646, l='MpServer', x=264,12, y=70,00, z=287,55]]
+	Chunk stats: MultiplayerChunkCache: 1089, 1089
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: 251,00,64,00,272,00 - World: (251,64,272), Chunk: (at 11,4,0 in 15,17; contains blocks 240,0,272 to 255,255,287), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 3223003 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 46 total; [EntityPlayerSP['Player341'/646, l='MpServer', x=264,12, y=70,00, z=287,55], EntityEnderman['Enderman'/128, l='MpServer', x=295,50, y=37,00, z=253,50], EntityCreeper['Creeper'/129, l='MpServer', x=293,50, y=38,00, z=246,50], EntitySkeleton['Skeleton'/641, l='MpServer', x=235,50, y=15,00, z=344,50], EntityBat['Bat'/130, l='MpServer', x=292,53, y=35,10, z=260,75], EntitySkeleton['Skeleton'/643, l='MpServer', x=231,50, y=15,00, z=340,50], EntityCreeper['Creeper'/131, l='MpServer', x=301,50, y=38,00, z=277,50], EntitySkeleton['Skeleton'/645, l='MpServer', x=234,50, y=15,00, z=337,50], EntitySkeleton['Skeleton'/134, l='MpServer', x=294,50, y=52,00, z=277,50], EntityZombie['Zombie'/140, l='MpServer', x=310,50, y=27,00, z=243,50], EntityCreeper['Creeper'/141, l='MpServer', x=313,50, y=29,00, z=246,50], EntityZombie['Zombie'/142, l='MpServer', x=319,50, y=34,00, z=241,50], EntityCreeper['Creeper'/143, l='MpServer', x=317,50, y=36,00, z=240,50], EntityCreeper['Creeper'/528, l='MpServer', x=211,50, y=50,00, z=346,50], EntitySkeleton['Skeleton'/144, l='MpServer', x=310,50, y=33,00, z=286,50], EntityZombie['Zombie'/147, l='MpServer', x=304,94, y=30,00, z=334,44], EntityCreeper['Creeper'/160, l='MpServer', x=326,50, y=40,00, z=302,50], EntityZombie['Zombie'/52, l='MpServer', x=202,50, y=19,00, z=223,50], EntitySpider['Spider'/55, l='MpServer', x=202,50, y=43,00, z=228,50], EntitySkeleton['Skeleton'/58, l='MpServer', x=202,50, y=51,00, z=334,50], EntityCreeper['Creeper'/60, l='MpServer', x=207,06, y=41,00, z=338,53], EntityCreeper['Creeper'/67, l='MpServer', x=212,50, y=47,00, z=242,50], EntityVillager['§aWaldläufer'/69, l='MpServer', x=217,63, y=75,34, z=314,28], EntitySpider['Spider'/71, l='MpServer', x=209,50, y=33,00, z=329,50], EntitySkeleton['Skeleton'/76, l='MpServer', x=227,50, y=58,00, z=229,50], EntityEnderman['Enderman'/78, l='MpServer', x=234,25, y=20,00, z=344,50], EntitySkeleton['Skeleton'/600, l='MpServer', x=317,50, y=33,00, z=330,50], EntityVillager['§aMagier'/90, l='MpServer', x=254,66, y=70,00, z=291,13], EntityCow['Cow'/91, l='MpServer', x=241,28, y=66,00, z=294,53], EntityVillager['§aSchattenläufer'/92, l='MpServer', x=245,41, y=87,88, z=300,94], EntityZombie['Zombie'/98, l='MpServer', x=265,50, y=55,00, z=227,50], EntityVillager['§aPaladin'/99, l='MpServer', x=258,66, y=70,00, z=289,81], EntityVillager['§aKleriker'/100, l='MpServer', x=257,28, y=70,00, z=291,28], EntityVillager['§eRitter'/101, l='MpServer', x=261,22, y=70,00, z=292,13], EntityVillager['§aBarbar'/102, l='MpServer', x=262,59, y=70,00, z=289,13], EntityVillager['§aWaldläufer'/103, l='MpServer', x=264,59, y=70,00, z=291,81], EntityCreeper['Creeper'/104, l='MpServer', x=264,84, y=51,00, z=342,13], EntityCreeper['Creeper'/112, l='MpServer', x=286,50, y=58,00, z=231,50], EntityCreeper['Creeper'/113, l='MpServer', x=279,50, y=53,00, z=242,50], EntitySheep['Sheep'/115, l='MpServer', x=285,41, y=64,00, z=327,50], EntityCreeper['Creeper'/116, l='MpServer', x=276,50, y=31,00, z=343,50], EntityBat['Bat'/502, l='MpServer', x=294,43, y=12,71, z=292,73], EntityBat['Bat'/506, l='MpServer', x=300,44, y=13,10, z=312,72], EntityVillager['§cKurfürst'/637, l='MpServer', x=265,69, y=70,00, z=288,19], EntitySkeleton['Skeleton'/127, l='MpServer', x=293,50, y=38,00, z=250,50], EntitySkeleton['Skeleton'/639, l='MpServer', x=234,50, y=15,00, z=340,50]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:383)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2645)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401)
+	at net.minecraft.client.main.Main.main(Main.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 173067272 bytes (165 MB) / 875560960 bytes (835 MB) up to 1895825408 bytes (1808 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCHIJA	arterionclientmod{0.1} [Arterion Client Mod] (bin) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 441.22' Renderer: 'GeForce GTX 970M/PCIe/SSE2'
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 970M/PCIe/SSE2 GL version 4.6.0 NVIDIA 441.22, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz

@@ -1,0 +1,3 @@
+016;/skillslot 2
+046;/skill windstoß
+042;/skill Heilen

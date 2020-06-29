@@ -1,0 +1,45 @@
+Minimap: Enable
+Death Point: Enable
+Update Check: Update Check
+Auto Update Check: Enable
+Map Shape: Square
+Texture: Rei Minimap
+Map Position: Upper Left
+Map Scale: Gui Scale
+Map Opacity: Percent100
+Large Map Scale: Gui Scale
+Large Map Opacity: Percent25
+Large Map Label: Enable
+Filtering: Enable
+Show Coordinates: Type2
+Show Menu Key: Enable
+Font Scale: Auto
+Default Zoom: X0 5
+Mask Type: Depth
+Update Frequency: Middle
+Threading: Disable
+Thread Priority: Low
+Preloaded Chunks: Disable
+Lighting: Dynamic
+Lighting Type: Type1
+Terrain Undulate: Enable
+Terrain Depth: Enable
+Transparency: Enable
+Environment Color: Enable
+Omit Height Calc: Enable
+Hide Snow: Disable
+Show Chunk Grid: Disable
+Show Slime Chunk: Enable
+Entities Radar: Enable
+Entity Player: Enable
+Entity Animal: Enable
+Entity Mob: Enable
+Entity Slime: Enable
+Entity Squid: Enable
+Entity Living: Enable
+Entity Lightning: Enable
+Entity Direction: Enable
+Marker: Enable
+Marker Icon: Enable
+Marker Label: Enable
+Marker Distance: Enable
