@@ -2393,8 +2393,17 @@ Class Start: me.friwi.arterion.client.gui.RenderIngameGuiHandler
       @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|891|905|KeybindManager|class|me.friwi.arterion.client.keybinds.KeybindManager
       @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|906|912|onTick|method|me.friwi.arterion.client.keybinds.KeybindManager|onTick|()V
       @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|924|930|topGui|field|me.friwi.arterion.client.gui.RenderIngameGuiHandler|topGui
-      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|937|943|topGui|field|me.friwi.arterion.client.gui.RenderIngameGuiHandler|topGui
-      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|944|950|render|method|me.friwi.arterion.client.gui.OverlayGui|render|()V
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|948|957|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|958|970|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|973|985|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|986|1003|keyBindPlayerList|field|net.minecraft.client.settings.GameSettings|keyBindPlayerList
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1004|1013|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1027|1036|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1037|1049|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1052|1064|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1065|1078|showDebugInfo|field|net.minecraft.client.settings.GameSettings|showDebugInfo
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1079|1085|topGui|field|me.friwi.arterion.client.gui.RenderIngameGuiHandler|topGui
+      @|me\friwi\arterion\client\gui\RenderIngameGuiHandler.java|1086|1092|render|method|me.friwi.arterion.client.gui.OverlayGui|render|()V
    Method End: onRenderGui(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Pre;)V
 Class End  : me.friwi.arterion.client.gui.RenderIngameGuiHandler
 endProcessing me\friwi\arterion\client\gui\RenderIngameGuiHandler.java
@@ -4245,13 +4254,17 @@ Class Start: me.friwi.arterion.client.labymod.LabymodIngameGuiHandler
       @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|820|829|Minecraft|class|net.minecraft.client.Minecraft
       @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|830|842|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
       @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|855|861|topGui|field|me.friwi.arterion.client.labymod.LabymodIngameGuiHandler|topGui
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|872|881|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|882|894|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|897|909|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|910|927|keyBindPlayerList|field|net.minecraft.client.settings.GameSettings|keyBindPlayerList
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|928|937|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|940|946|topGui|field|me.friwi.arterion.client.labymod.LabymodIngameGuiHandler|topGui
-      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|947|953|render|method|me.friwi.arterion.client.gui.OverlayGui|render|()V
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|879|888|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|889|901|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|904|916|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|917|934|keyBindPlayerList|field|net.minecraft.client.settings.GameSettings|keyBindPlayerList
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|935|944|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|958|967|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|968|980|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|983|995|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|996|1009|showDebugInfo|field|net.minecraft.client.settings.GameSettings|showDebugInfo
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|1010|1016|topGui|field|me.friwi.arterion.client.labymod.LabymodIngameGuiHandler|topGui
+      @|me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java|1017|1023|render|method|me.friwi.arterion.client.gui.OverlayGui|render|()V
    Method End: onRenderGui(Lnet/minecraftforge/client/event/RenderGameOverlayEvent;)V
 Class End  : me.friwi.arterion.client.labymod.LabymodIngameGuiHandler
 endProcessing me\friwi\arterion\client\labymod\LabymodIngameGuiHandler.java

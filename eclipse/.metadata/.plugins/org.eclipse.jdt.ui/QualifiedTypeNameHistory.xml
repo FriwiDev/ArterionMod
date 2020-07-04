@@ -21,6 +21,23 @@
 <fullyQualifiedTypeName name="net.minecraftforge.client.event.GuiScreenEvent"/>
 <fullyQualifiedTypeName name="net.minecraftforge.client.event.GuiScreenEvent.DrawScreenEvent"/>
 <fullyQualifiedTypeName name="me.friwi.arterion.client.gui.util.TooltipPainter"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="net.labymod.servermanager.Server"/>
+<fullyQualifiedTypeName name="net.labymod.utils.Material"/>
+<fullyQualifiedTypeName name="net.labymod.utils.ServerData"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="net.minecraft.client.multiplayer.ServerData"/>
+<fullyQualifiedTypeName name="net.labymod.api.events.PluginMessageEvent"/>
+<fullyQualifiedTypeName name="me.friwi.arterion.client.labymod.LabymodIngameGuiHandler"/>
+<fullyQualifiedTypeName name="me.friwi.arterion.client.data.ModValueEnum"/>
+<fullyQualifiedTypeName name="scala.actors.threadpool.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="net.labymod.main.lang.LanguageManager"/>
+<fullyQualifiedTypeName name="net.labymod.utils.Consumer"/>
+<fullyQualifiedTypeName name="me.friwi.arterion.client.labymod.LabyKeybinds"/>
+<fullyQualifiedTypeName name="net.labymod.main.LabyMod"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiNewChat"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiIngame"/>
 </qualifiedTypeNameHistroy>

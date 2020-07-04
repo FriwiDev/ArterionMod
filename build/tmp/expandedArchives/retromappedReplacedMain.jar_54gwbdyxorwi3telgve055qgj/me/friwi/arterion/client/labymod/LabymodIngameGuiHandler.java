@@ -18,6 +18,8 @@ public class LabymodIngameGuiHandler {
     {
     	if(ModValueEnum.IS_ARTERION.getInt()!=1)return;
     	Mouse.res = new ScaledResolution(Minecraft.func_71410_x());
-    	if(topGui!=null && !Minecraft.func_71410_x().field_71474_y.field_74321_H.func_151470_d())topGui.render();
+    	if(topGui!=null
+    			&& !Minecraft.func_71410_x().field_71474_y.field_74321_H.func_151470_d()
+    			&& !Minecraft.func_71410_x().field_71474_y.field_74330_P)topGui.render();
     }
 }
