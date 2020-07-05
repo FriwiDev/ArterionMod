@@ -40,4 +40,5 @@
 <fullyQualifiedTypeName name="net.labymod.main.LabyMod"/>
 <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiNewChat"/>
 <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiIngame"/>
+<fullyQualifiedTypeName name="net.minecraft.network.play.client.C0DPacketCloseWindow"/>
 </qualifiedTypeNameHistroy>

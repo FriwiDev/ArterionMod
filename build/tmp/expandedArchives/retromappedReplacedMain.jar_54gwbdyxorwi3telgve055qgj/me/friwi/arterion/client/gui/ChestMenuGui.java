@@ -2,6 +2,7 @@ package me.friwi.arterion.client.gui;
 
 import java.io.IOException;
 
+import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
 import me.friwi.arterion.client.ArterionModConfig;
@@ -71,7 +72,7 @@ public class ChestMenuGui extends GuiScreen {
 	 */
 	public void func_146281_b() {
 		if(Minecraft.func_71410_x().field_71439_g!=null) {
-			Minecraft.func_71410_x().field_71439_g.field_71174_a.func_147297_a(new C0DPacketCloseWindow(container.field_75152_c));
+			if(Keyboard.isKeyDown(Keyboard.KEY_ESCAPE))Minecraft.func_71410_x().field_71439_g.field_71174_a.func_147297_a(new C0DPacketCloseWindow(container.field_75152_c));
 		}
 	}
 
